@@ -1,0 +1,143 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+.header_f{
+    
+    position: relative;
+    height: 100vh;
+    background-image: url(../assets/parrilla.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+     
+}
+.slogan-container {
+    display: flex;
+    text-align: center;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+  }
+  .sub_slogan-text {
+    font-size: 0.8rem;
+    font-family: "Satisfy", cursive;;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para mejorar legibilidad */
+  }
+  
+  .slogan-text {
+    font-size: 5rem;
+    font-family: "Satisfy", cursive;;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para mejorar legibilidad */
+  }
+  .text_p{
+    font-family: "Dancing Script", cursive;
+  }
+  /* Responsividad para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .slogan-text {
+      font-size: 2rem; /* Ajusta el tamaño del texto en dispositivos pequeños */
+    }
+  
+    .slogan-container {
+      padding: 15px;
+    }
+  }
+
+
+  
+.bg-imagen {
+    background-image: url(../assets/parrilla2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    color: white;
+    
+  }
+  
+  
+  .content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; /* Más adaptable en pantallas pequeñas */
+    max-width: 800px; /* Limita el ancho en pantallas grandes */
+    text-align: justify;
+    
+  }
+  
+  /* Imagen redondeada */
+  .img-central {
+    width: 50%; /* Hacemos que la imagen ocupe un porcentaje del contenedor */
+    max-width: 200px; /* Limita el tamaño máximo en pantallas grandes */
+    height: auto; /* Mantiene la proporción correcta */
+    margin-top: 15px;
+    border: solid 2px;
+  }
+  
+  /* Ajustes responsivos para pantallas pequeñas */
+  @media (max-width: 576px) {
+    .content {
+      width: 95%; /* Más espacio en pantallas pequeñas */
+      top: 50%; /* Ajusta la posición vertical en pantallas pequeñas */
+    }
+  
+    .img-central {
+      width: 70%; /* Aumenta el tamaño de la imagen en pantallas más pequeñas */
+    }
+  }
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  /* Estilos para los iconos de redes sociales */
+  .footer .btn-floating {
+    font-size: 1.5rem; /* Tamaño de los iconos */
+    width: 50px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer .btn-floating:hover {
+    background-color: #ffffff33; /* Efecto hover en los iconos */
+  }
+  
+  /* Ajustes responsivos */
+  @media (max-width: 576px) {
+    .footer p {
+      font-size: 0.9rem; /* Reducir el tamaño del texto en móviles */
+    }
+  
+    .footer .btn-floating {
+      width: 40px;
+      height: 40px;
+      font-size: 1.2rem; /* Reducir el tamaño de los iconos en pantallas pequeñas */
+    }
+  }
