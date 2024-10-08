@@ -33,7 +33,7 @@ body, html {
   }
   .sub_slogan-text {
     font-size: 0.8rem;
-    font-family: "Satisfy", cursive;;
+    font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
@@ -44,7 +44,7 @@ body, html {
   
   .slogan-text {
     font-size: 5rem;
-    font-family: "Satisfy", cursive;;
+    font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
@@ -53,9 +53,19 @@ body, html {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para mejorar legibilidad */
   }
   .text_p{
-    font-family: "Dancing Script", cursive;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+  .text-center {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+  font-size: 2rem;
+}
   /* Responsividad para pantallas más pequeñas */
   @media (max-width: 768px) {
     .slogan-text {
@@ -103,11 +113,11 @@ body, html {
   @media (max-width: 576px) {
     .content {
       width: 95%; /* Más espacio en pantallas pequeñas */
-      top: 50%; /* Ajusta la posición vertical en pantallas pequeñas */
+      top: 53%; /* Ajusta la posición vertical en pantallas pequeñas */
     }
   
     .img-central {
-      width: 70%; /* Aumenta el tamaño de la imagen en pantallas más pequeñas */
+      width: 44%; /* Aumenta el tamaño de la imagen en pantallas más pequeñas */
     }
   }
   .footer {
@@ -153,9 +163,9 @@ body, html {
   .whatsapp-float {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 50px;
     background-color: #25D366;
-    color: white;
+    
     border-radius: 50%;
     padding: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -163,6 +173,7 @@ body, html {
 .whatsapp-float img {
     width: 30px;
     height: 30px;
+   
 }
 /*Estilo de galeria*/
 .card-img-top {
