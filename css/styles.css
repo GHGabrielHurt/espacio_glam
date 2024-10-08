@@ -38,7 +38,7 @@ body, html {
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white;
+    color: black;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para mejorar legibilidad */
   }
   
@@ -49,7 +49,7 @@ body, html {
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white;
+    color: black;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para mejorar legibilidad */
   }
   .text_p{
